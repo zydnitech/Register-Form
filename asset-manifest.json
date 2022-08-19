@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Register-Form/static/css/main.e05bbb9e.css",
+    "main.js": "/Register-Form/static/js/main.6f16df05.js",
+    "static/js/787.24e9e548.chunk.js": "/Register-Form/static/js/787.24e9e548.chunk.js",
+    "static/media/Zydni-final-logo-main.png": "/Register-Form/static/media/Zydni-final-logo-main.3ab4bc752c2ee57334f8.png",
+    "index.html": "/Register-Form/index.html",
+    "main.e05bbb9e.css.map": "/Register-Form/static/css/main.e05bbb9e.css.map",
+    "main.6f16df05.js.map": "/Register-Form/static/js/main.6f16df05.js.map",
+    "787.24e9e548.chunk.js.map": "/Register-Form/static/js/787.24e9e548.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e05bbb9e.css",
+    "static/js/main.6f16df05.js"
+  ]
+}
