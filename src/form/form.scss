@@ -1,0 +1,112 @@
+$bodyBg: #99bcc3;
+$boxBg: #9dabbf;
+body {
+  background-color: $bodyBg;
+
+  .outer-box {
+    background-color: $boxBg;
+    border-radius: 40px;
+    padding: 15px;
+    width: fit-content;
+
+    img {
+      margin: auto;
+      display: block;
+    }
+
+    form {
+      padding: 20px;
+
+      label {
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 5px;
+        .spantag {
+          color: red;
+        }
+      }
+
+      input,
+      select {
+        width: 400px;
+        height: 40px;
+        border-radius: 20px;
+        padding: 10px;
+        border: none;
+        background-color: #d9d9d9;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-size: 15px;
+      }
+      .errormsg {
+        color: red;
+        margin: 5px 0px 0px 5px;
+      }
+      select:focus {
+        outline: none;
+      }
+
+      input:focus,
+      textarea:focus {
+        outline: none;
+      }
+
+      // form-lastnaem
+      .lastname {
+        margin-top: 11px;
+      }
+
+      .radiolabel {
+        margin-bottom: -5px;
+      }
+
+      input[type="radio"] {
+        width: 20px;
+        height: 15px;
+        margin-left: 5px;
+        margin-right: 27px;
+      }
+
+      .file {
+        background-color: #d9d9d9;
+        color: transparent;
+        height: 45px;
+        padding: 0px;
+      }
+
+      ::-webkit-file-upload-button {
+        width: 100px;
+        background-color: blue;
+        color: white;
+        height: 35px;
+        border-radius: 20px;
+        border: none;
+        margin-top: 4px;
+        float: right;
+      }
+
+      textarea {
+        border-radius: 30px;
+        background-color: #d9d9d9;
+        border: none;
+        padding: 13px;
+        width: 400px;
+        height: 250px;
+      }
+    }
+
+    button {
+      width: 100px !important;
+      background-color: blue;
+      color: white;
+      height: 40px;
+      padding: 5px !important;
+      display: block;
+      margin: auto;
+      border: none;
+      border-radius: 20px;
+    }
+  }
+}
